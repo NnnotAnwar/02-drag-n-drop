@@ -7,7 +7,7 @@ const textContent = item.textContent
 const dragstart = event => {
     event.target.classList.add('hold')
 
-    event.target.textContent = 'Еду в?'
+    event.target.textContent = 'Go to?'
     setTimeout(() => event.target.classList.add('hide'))
 }
 
